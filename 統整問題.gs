@@ -57,7 +57,7 @@ function analyzeQuestionsWithGemini() {
 
 // Function to request summarization from Google Gemini API
 function requestGemini(questions) {
-  var apiKey = <GoogleGeminitID>; // Replace with your Gemini API key
+  var apiKey = <GoogleGeminitToken>; // Replace with your Gemini API key
   var url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=' + apiKey;
 
   // Prepare the payload
